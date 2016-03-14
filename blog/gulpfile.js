@@ -4,7 +4,7 @@ var run = require('run-sequence');
 var Promise = require('promise');
 var path = require('path');
 
-gulp.task('git-pull', function(){
+gulp.task('git-pull', function () {
   return new Promise(function (resolve, reject) {
     process.chdir(path.resolve(__dirname, './clone/ext-docs/'));
     git.pull('origin', 'master', {args: '--rebase'}, function (err) {
