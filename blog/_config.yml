@@ -19,6 +19,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
+# source_dir: clone/ext-docs/markdowns/
 public_dir: public
 tag_dir: tags
 archive_dir: archives
